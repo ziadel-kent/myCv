@@ -1,0 +1,233 @@
+:root {
+    --footer: #1b1d2e;
+    --secondary:#7893b0;
+    --primary: #eeeeee;
+    --bgc: #01162c;
+    --red: #ff2a00;
+    --blue: #0526ff;
+    --light-blue: #324dff;
+}
+
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(65deg, var(--blue)10%,var(--red) 70%);
+    background-repeat: no-repeat;
+    color: var(--secondary);
+    font-family: Inconsolata;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    background-image: url(image/bgi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:var(--primary);
+    background-attachment: fixed;
+    height: 610px;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.child {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 140px;
+    background-color: var(--bgc);
+    opacity: .9;
+    font-family: "Audiowide", sans-serif;
+    color: var(--primary);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    background-color: var(--bgc);
+    padding: 15px 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+a:active {
+    color: var(--red);
+    text-decoration: none;
+}
+
+
+table td {
+    padding-left: 30px;
+}
+
+.tab-body table td,th {
+    border:1px solid var(--secondary);
+    padding: 10px 15px;
+}
+.tab-body table {
+    width: 50%;
+    margin: 0 auto;
+}
+.contact {
+    margin: 0 auto 40px;
+    width: fit-content;
+}
+
+.contact h1 {
+    color: var(--primary);
+}
+
+h2 {
+    color: var(--blue);
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    color: var(--primary);
+    font-size: 25px;
+}
+
+ul {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+table img {
+    border-radius: 13px;
+}
+
+hr {
+    position:relative;
+    width: 100%;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.info-detail {
+    line-height: 1.5;
+    padding: 20px 25px;
+    list-style-position: inside;
+    padding-bottom: 15px;
+    background-color: var(--secondary);
+    color: var(--footer);
+    font-weight: bold;
+    margin-bottom:50px;
+}
+
+.info-detail ol {
+    list-style-position: outside;
+    margin: 0;
+}
+
+.form {
+    width: 20rem;
+    margin: 10px auto;
+    background-color: var(--primary);
+    color: var(--bgc);
+    font-weight: 500;
+    padding: 20px 30px;
+    border-radius: 9px;
+    border-top: 7px solid var(--red);
+    -webkit-box-shadow: 1px 4px 8px 0px var(--secondary);
+    -moz-box-shadow: 1px 4px 8px 0px var(--secondary);
+    box-shadow: 1px 4px 8px 0px var(--secondary);
+}
+
+.form .btn {
+    background-color: var(--blue);
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 8px;
+    transition: all, ease,0.3s;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 19px;
+    margin: 10px 0 0 0 ;
+    font-weight: bold;
+    
+}
+
+.form .btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px var(--blue);
+}
+
+.form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    width: 98%;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: var(--footer);
+    height: 100px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 30px 0;
+    border-top:7px solid var(--bgc);
+}
+
+.footer p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    margin: 20px auto;
+    width: fit-content;
+}
+
+
+.btn a {
+    background-color: var(--blue);
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: all, ease,0.3s;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.btn a:hover {
+    background-color: var(--light-blue);
+    color: var(--bgc);
+    padding: 10px 35px;
+}
